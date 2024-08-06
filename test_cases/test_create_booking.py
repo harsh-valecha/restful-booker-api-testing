@@ -14,7 +14,7 @@ import json
         "additionalneeds": "Breakfast"
     }
 ])
-def test_create_booking(session, base_url, booking_data):
+def test_create_booking(session, base_url,shared,booking_data):
     url = f"{base_url}/booking"
     headers = {"Content-Type": "application/json"}
     response = session.post(url, data=json.dumps(booking_data), headers=headers)
@@ -29,3 +29,4 @@ def test_create_booking(session, base_url, booking_data):
     assert response_data["booking"]["bookingdates"]["checkin"] == booking_data["bookingdates"]["checkin"]
     assert response_data["booking"]["bookingdates"]["checkout"] == booking_data["bookingdates"]["checkout"]
     assert response_data["booking"]["additionalneeds"] == booking_data["additionalneeds"]
+    shared['bookingid'] = response_data['bookingid']
