@@ -13,6 +13,9 @@ restful-booker-api-testing/
 │   ├── test_create_booking.py
 │   └── ... (other test case files)
 │
+├── scripts/
+│   └── practice_requests.py
+│
 ├── reports/
 │   └── report.html
 │
@@ -28,6 +31,7 @@ restful-booker-api-testing/
 - `collections/`: Contains the Postman collection for the RESTful Booker API.
 - `test_cases/`: Contains the automated test scripts for various API endpoints.
 - `reports/`: Contains the test reports generated after running the tests.
+- `scripts/`: Contains examples of how to use the requests library to interact with the RESTful Booker API.
 - `README.md`: Project documentation and instructions.
 - `requirements.txt`: List of dependencies required for running the tests.
 - `.gitignore`: Specifies files and directories to be ignored by Git.
@@ -53,6 +57,10 @@ restful-booker-api-testing/
     ```bash
     pip install -r requirements.txt
     ```
+4. To run the scripts -
+   ```bash
+   python scripts/practice_requests.py
+   ```
 
 ## Running Tests
 
