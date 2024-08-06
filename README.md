@@ -5,6 +5,7 @@ Link :-https://restful-booker.herokuapp.com/
 
 File Structure
 
+```
 restful-booker-api-testing/
 ├── collections/
 │   ├── restful-booker-postman-collection.json
@@ -20,6 +21,7 @@ restful-booker-api-testing/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
 
 
