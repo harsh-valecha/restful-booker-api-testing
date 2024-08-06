@@ -7,20 +7,20 @@ File Structure
 
 ```
 restful-booker-api-testing/
-├── collections/
-│   ├── restful-booker-postman-collection.json
+│
 ├── test_cases/
-│   ├── create_booking_test.py
-│   ├── update_booking_test.py
-│   ├── delete_booking_test.py
-│   ├── get_booking_test.py
-│   ├── get_booking_ids_test.py
-│   ├── health_check_test.py
+│   ├── __init__.py
+│   ├── test_create_booking.py
+│   └── ... (other test case files)
+│
 ├── reports/
-│   ├── test_report_YYYYMMDD.html
-├── README.md
-├── requirements.txt
-└── .gitignore
+│   └── report.html
+│
+├── pytest.ini
+├── conftest.py
+├── LICENSE
+└── README.md
+
 ```
 
 
