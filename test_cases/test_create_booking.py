@@ -1,6 +1,7 @@
 import pytest
 import json
 
+@pytest.mark.order(1)
 @pytest.mark.parametrize("booking_data", [
     {
         "firstname": "Jim",
