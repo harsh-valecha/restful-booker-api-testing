@@ -1,5 +1,5 @@
-# restful-booker-api-testing
-This repository contains automated test cases, collections, and test reports for the RESTful Booker API. The tests are designed to validate various endpoints and ensure the API's functionality, reliability, and performance. 
+# RESTful-booker-api-testing
+Built a robust automated testing framework for the RESTful Booker API using pytest and requests, employing data-driven testing and pytest-html for detailed reporting and enhanced test coverage. 
 
 Link :-https://restful-booker.herokuapp.com/
 
